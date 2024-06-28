@@ -15,13 +15,16 @@ This project is for educational purposes only.
 
 Site published at: konoto1.github.io/html-grupinisdarbas/
 
-Design: Imagination
+Design: [Portfolio Design](https://www.figma.com/design/94SoTkTcpM6uuEcleoYIYr/PORTFOLIO-DESIGN-KIT-(Community)?node-id=101-8&t=Vo0JQvdfc3RCy5Fh-0)
 
 ## 🎯 Project features/goals
 
 -   Github pages
 -   basic HTML elements/tags
--   basic inline-CSS rules
+-   basic CSS files rules
+-   CSS grid
+-   CSS Flex
+-   SVG images
 -   **NO** responsive design
 
 ## 🧰 Getting Started
@@ -46,7 +49,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/konoto1/html-sinking.git
+    git clone https://github.com/konoto1/html-grupinisdarbas.git
     ```
 2. Install NPM packages
     ```sh
@@ -68,6 +71,9 @@ There is no tests for this project.
 ## 🎅 Authors
 
 Tomas: [Github](https://github.com/konoto1)
+Monika: [Github](https://github.com/monicule)
+Vitalijus: [Github](https://github.com/vitaliju)
+Ksenija: [Github](https://github.com/KsenijaCode)
 
 ## ⚠️ License
 
