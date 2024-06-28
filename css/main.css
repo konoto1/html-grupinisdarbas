@@ -20,7 +20,7 @@ body * {
 }
 
 .header img {
-    width: 200px;
+    width: 9rem;
 }
 
 .navigationContainer nav {
@@ -88,4 +88,164 @@ button {
 button:hover {
     color: white;
     background-color: #2e1c4b;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 6rem 0;
+}
+
+.section-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem 4rem 3rem 0;
+    gap: 8rem;
+}
+
+.section-three {
+    color: white;
+    margin: 0rem 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem 1.5rem;
+    justify-content: space-evenly;
+    
+    /* text-align: center; */
+}
+
+.photo-container {
+    width: 25rem;
+}
+
+.dark {
+    filter: brightness(50%);
+}
+
+.photo {
+    position: relative;
+}
+
+.photo-btn {
+    position: absolute;
+    top: 9rem;
+    left: 6rem;
+    text-align: center;
+    gap: 3rem;
+    width: 16rem;
+    height: 7rem;
+    background-color: transparent;
+}
+
+.photo img {
+    position: relative;
+    width: 28rem;
+    height: 28rem;
+    border-radius: 2.3rem;
+}
+
+/* .img {
+    background-color: red;
+    width: 50rem;
+    height: 50rem;
+    position: relative;
+    z-index: -1;
+} */
+
+.photo-btn > button {
+    color: white;
+    margin: 1rem 0;
+    border: 2px solid white;
+    padding: 0.5rem 2rem;
+    box-sizing:content-box;
+    border-radius: 0.7rem;
+    background-color: transparent;
+}
+
+.photo-btn>button:hover {
+    background-color: white;
+    color: #0A0119;
+}
+.project-name {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.about {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+.about p{
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.2rem;
+}
+
+.contact {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+.contact p:first-child {
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+}
+
+.me {
+    font-size: 2rem;
+}
+
+.contact > a {
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+}
+footer {
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4rem;
+}
+
+.footer > img {
+    width: 10rem;
+}
+
+.footer nav img {
+    width: 2rem;
+    margin-left: 5rem
+}
+
+footer nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    display: flex;
+    margin: 4rem 4rem;
+}
+
+.copyright img {
+    width: 1.3rem;
+}
+
+.copyright p {
+    font-size: 1rem;
+    margin-left: 0.4rem;
 }
