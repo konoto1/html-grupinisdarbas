@@ -13,7 +13,7 @@ _website design project_
 
 This project is for educational purposes only.
 
-Site published at: konoto1.github.io/html-grupinisdarbas/
+Site published at: [Here](https://konoto1.github.io/html-grupinisdarbas/)
 
 Design: [Portfolio Design](https://www.figma.com/design/94SoTkTcpM6uuEcleoYIYr/PORTFOLIO-DESIGN-KIT-(Community)?node-id=101-8&t=Vo0JQvdfc3RCy5Fh-0)
 
