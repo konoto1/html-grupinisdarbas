@@ -6,16 +6,21 @@ body * {
     background-color: #0A0119;
 }
 
+/* body {
+    width: 900px;
+    margin-left: calc(50% - 450px);
+} */
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 3rem;
-    padding: 3rem 2rem;
+    margin: 3rem 4rem;
 }
 
 .header img {
-    width: 100px;
+    width: 200px;
 }
 
 .navigationContainer nav {
@@ -27,7 +32,7 @@ body * {
 
 .navigationContainer nav ul {
     display: flex;
-    gap: 1.5rem;
+    gap: 5.5rem;
 }
 
 .navigationContainer nav ul li {
@@ -36,6 +41,51 @@ body * {
 
 .navigationContainer nav ul li a {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: white;
+}
+
+.section-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem 0 3rem 4rem;
+}
+
+.paragraph {
+    color: white;
+}
+
+.name {
+    font-size: 3rem;
+}
+
+.profesion {
+    font-size: 4rem;
+    margin: 1rem 0;
+}
+
+.man {
+    width: 40rem;
+    height: 40rem;
+}
+
+.text {
+    font-size: 1.5rem;
+}
+
+button {
+    color: #0A0119;
+    border: none;
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 20px;
+    margin: 3rem 0;
+    padding: 0.8rem 2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: #2e1c4b;
 }
